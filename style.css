@@ -1,0 +1,15 @@
+body,
+html {
+  background-color: gray;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+canvas {
+  outline: none;
+  background-color: black;
+  z-index: 1;
+  margin: 0 auto;
+}
